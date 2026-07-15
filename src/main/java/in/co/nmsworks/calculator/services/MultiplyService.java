@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service;
 public class MultiplyService implements Computable {
     @Override
     public int compute(int firstNum, int secondNum) {
-        return firstNum * secondNum;
+        return firstNum / secondNum;
     }
 }
